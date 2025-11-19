@@ -166,7 +166,16 @@ The model was successfully exported to **TensorFlow Lite** and tested on sample 
 4. Run prediction
 5. Integrate into app or IoT device
 
-## **8. Conclusion**
+## **8. Training Environment**
+
+The recyclable item classification model was  **trained in Google Colab** , using TensorFlow/Keras with GPU acceleration enabled. Colab was used for:
+
+* Model development
+* Training and validation
+* TFLite conversion
+* Sample inference testing
+
+## **9. Conclusion**
 
 The project demonstrates the complete Edge AI pipeline—from training to optimization and deployment—showing the viability of compact models for real-world applications.
 
